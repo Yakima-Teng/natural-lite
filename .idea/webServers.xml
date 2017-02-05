@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="919a3139-d861-4a7b-aa0f-b2c962314baa" name="103.44.28.13_natural-lite" url="http://www.orzzone.com">
+        <fileTransfer host="103.44.28.13" port="22" rootFolder="/home/orzzone/public_html/blog/wp-content/themes/natural-lite" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
