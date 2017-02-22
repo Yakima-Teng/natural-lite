@@ -2066,7 +2066,7 @@ a, a:link {
 	background-size: cover;
 }
 
-@keyframes "spin" {
+@keyframes spin {
 	 from {
 	    -webkit-transform: rotate(0deg);
 	   	-moz-transform: rotate(0deg);
@@ -2092,7 +2092,7 @@ a, a:link {
 	   	transform: rotate(359deg);
 	 }
 }
-@-webkit-keyframes "spin" {
+@-webkit-keyframes spin {
 	 from {
 	   	-webkit-transform: rotate(0deg);
 	   	transform: rotate(0deg);
@@ -2102,7 +2102,7 @@ a, a:link {
 	   	transform: rotate(359deg);
 	 }
 }
-@-ms-keyframes "spin" {
+@-ms-keyframes spin {
 	 from {
 	   	-ms-transform: rotate(0deg);
 	   	transform: rotate(0deg);
@@ -2112,7 +2112,7 @@ a, a:link {
 	   	transform: rotate(359deg);
 	 }
 }
-@-o-keyframes "spin" {
+@-o-keyframes spin {
 	 from {
 	  	 -o-transform: rotate(0deg);
 	   	transform: rotate(0deg);
