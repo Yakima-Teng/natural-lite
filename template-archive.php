@@ -36,15 +36,17 @@ get_header(); ?>
 						<ul><?php wp_list_pages( 'title_li=' ); ?></ul>
 					</div>
 
-					<div class="archive-column">
-						<h6><?php esc_html_e( 'By Post:', 'natural-lite' ); ?></h6>
-						<ul><?php wp_get_archives( 'type=postbypost&limit=100' ); ?></ul>
-					</div>
+<!--					<div class="archive-column">-->
+<!--						<h6>--><?php //esc_html_e( 'By Post:', 'natural-lite' ); ?><!--</h6>-->
+<!--						<ul>--><?php //wp_get_archives( 'type=postbypost&limit=100' ); ?><!--</ul>-->
+<!--					</div>-->
+
+          <div class="archive-column">
+            <h6><?php esc_html_e( 'By Month:', 'natural-lite' ); ?></h6>
+            <ul><?php wp_get_archives( 'type=monthly' ); ?></ul>
+          </div>
 
 					<div class="archive-column last">
-						<h6><?php esc_html_e( 'By Month:', 'natural-lite' ); ?></h6>
-						<ul><?php wp_get_archives( 'type=monthly' ); ?></ul>
-						<br />
 						<h6><?php esc_html_e( 'By Category:', 'natural-lite' ); ?></h6>
 						<ul><?php wp_list_categories( 'sort_column=name&title_li=' ); ?></ul>
 					</div>
