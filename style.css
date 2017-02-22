@@ -44,6 +44,7 @@
 	22. Forms
 	23. CSS3 Styles
 	24. WordPress Core
+	25. Related Posts
 
 *******************************************************************************************************************/
 
@@ -2159,4 +2160,16 @@ a, a:link {
 }
 .sticky, .bypostauthor {
 	position: relative;
+}
+/************************************************
+*	25.	Related Posts									*
+************************************************/
+.related-posts-wrapper {
+  margin-top: 24px;
+}
+.related-posts-title {
+  display: block;
+  padding: 8px 12px;
+  margin: 0;
+  width: auto;
 }
