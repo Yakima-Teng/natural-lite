@@ -44,9 +44,7 @@
 
 				<div class="align-left">
           <p>Copyright &copy; <?php echo date('Y'); ?> · All Rights Reserved · <?php bloginfo('name'); ?> · 当前共发布了<?php $count_posts = wp_count_posts('post', ''); echo $count_posts->publish; ?>篇文章</p>
-          <p>滕运锋，英文名Yakima Teng，2013年毕业于沈阳药科大学-药学(食品药学方向)专业</p>
-          <p>博客主要记录了一些生活琐碎、思考感悟，以及IT方面的一些技术文章</p>
-          <p>主题基于<a href="http://organicthemes.com/" rel="nofollow">Natural Lite</a>修改而来 &middot; <a href="<?php bloginfo( 'rss2_url' ); ?>">RSS Feed</a> &middot; <a href="http://www.orzzone.com/blog/sitemap.xml">Sitemap</a> &middot; <?php wp_loginout(); ?></p>
+          <p><a href="https://github.com/Yakima-Teng/natural-lite" rel="nofollow">Theme Source Code</a> &middot; <a href="<?php bloginfo( 'rss2_url' ); ?>">RSS Feed</a> &middot; <a href="<?php bloginfo('home') ?>/sitemap.xml">Sitemap</a> &middot; <?php wp_loginout(); ?></p>
 				</div>
 
 				<?php if ( has_nav_menu( 'social-menu' ) ) { ?>
