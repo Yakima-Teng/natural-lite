@@ -31,6 +31,8 @@ get_header(); ?>
 
 					<h1 class="headline"><?php the_title(); ?></h1>
 
+          <p>当前共发布了<?php $count_posts = wp_count_posts('post', ''); echo $count_posts->publish; ?>篇文章。</p>
+
 					<div class="archive-column">
 						<h6><?php esc_html_e( 'By Page:', 'natural-lite' ); ?></h6>
 						<ul><?php wp_list_pages( 'title_li=' ); ?></ul>
