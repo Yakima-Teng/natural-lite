@@ -62,7 +62,7 @@
   <!-- BEGIN 添加相关文章（根据分类来判断） -->
   <div class="related-posts-wrapper">
     <header class="post-meta related-posts-title">
-      <i class="fa fa-reorder"></i>
+      <i class="fa fa-link"></i>
       &nbsp;Related Posts:
     </header>
     <ul class="related-posts">
